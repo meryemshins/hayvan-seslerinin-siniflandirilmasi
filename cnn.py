@@ -8,7 +8,8 @@ from scipy.io import wavfile
 #wav ses dosyalarını okumak/yazmak için gerekli kütüphane
 import tensorflow as tf  
 #derin sinir ağlarının eğitimi ve çıkarımı için gerekli kütüphane
-from tensorflow.keras import layers, models, backend, optimizers  
+from tensorflow import keras 
+from tensorflow import layers, models, backend, optimizers  
 #derin öğrenme için kullanılan kütüphane
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, Flatten    # katman işlemleri.
